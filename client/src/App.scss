@@ -1,0 +1,30 @@
+$blue: #1877f2;
+$green: #42b72a;
+$gray-600: rgb(245, 245, 245);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(
+        203deg,
+        rgba(131, 58, 180, 0.9) 0%,
+        rgba(253, 29, 20, 0.9) 50%,
+        rgba(252, 176, 69, 0.9) 100%
+    );
+}
+
+.react-icon-button {
+    padding: 7px;
+    text-decoration: none;
+    transition: .3s;
+    &:hover {
+        text-decoration: none;
+        transform: scale(1.5);
+        transition: .3s;
+    }
+}
+
+.btn:focus {
+    box-shadow: none;
+}
